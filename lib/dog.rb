@@ -1,3 +1,8 @@
 class Dog
-  attr_reader
+  attr_accessor :name
+  
+  @@all = []
+  def initialize(name)
+    
+  end
 end 
