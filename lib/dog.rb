@@ -14,5 +14,6 @@ class Dog
   def self.print_all(all)
     each @@all do |puppy|
       puts puppy
+    end 
   end 
 end 
